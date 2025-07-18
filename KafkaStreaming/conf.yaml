@@ -1,6 +1,6 @@
 schema_registry_conf:
   url: https://schema.dev.gdmp.dgt.fwd.internal
-  basic.auth.user.info: R7SYOZYFLOPAZ66P:faPh6lVxl3ANVMxHCi3br2FPlL4WkmdlKHHGw0T+5sOzvQm00s/aFsFntJaxT3Vf
+  basic.auth.user.info: R7SXXXXFLOPAZ66P:faPh6lVxl3ANVMxHCiXXXXXXXXXXXXXX5sOzvQm00s/aFsFntJaxT3Vf
   ssl.ca.location: cacert.pem
 
 
@@ -11,6 +11,6 @@ consumer_conf:
   auto.offset.reset: earliest
   security.protocol: SASL_SSL
   sasl.mechanism: PLAIN
-  sasl.username: 2LMY5AD4N7QAYHDV
-  sasl.password: sQ7ioOJ2nU9vRij7/nT+HSDIZYU/ZX/DSW8CCoKoeyILMYdS6MVegvFga4vnOG80
+  sasl.username: 2LMXXXXXYHDV
+  sasl.password: sQ7ioOJ2nU9vRij7XXXXXXMYdS6MVegvFga4vnOG80
 
