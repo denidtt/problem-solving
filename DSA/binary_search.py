@@ -3,18 +3,17 @@ def binary_search(arr, k):
         return "Its an empty Array"
     low =0
     high =len(arr)-1
-    while low <=high :
+    while low < high :
         mid= low+(high-low) //2
         if k==arr[mid]:
             return "Element Found !"
         elif k<arr[mid]:
-            high =mid-1
+            high =mid
         else :
-            low =mid+1
+            low =mid
 
-    else:
-        return "element not in Array !"
-
+    return "element not in Array !"
 
 
-print(binary_search([],28))
+
+print(binary_search([1,2,3,4],28))

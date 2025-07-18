@@ -1,0 +1,16 @@
+schema_registry_conf:
+  url: https://schema.dev.gdmp.dgt.fwd.internal
+  basic.auth.user.info: R7SYOZYFLOPAZ66P:faPh6lVxl3ANVMxHCi3br2FPlL4WkmdlKHHGw0T+5sOzvQm00s/aFsFntJaxT3Vf
+  ssl.ca.location: cacert.pem
+
+
+
+consumer_conf:
+  bootstrap.servers: lkc-r5yjpp.domxp89qzwd.japaneast.azure.confluent.cloud:9092
+  group.id: dev-omne-test-p
+  auto.offset.reset: earliest
+  security.protocol: SASL_SSL
+  sasl.mechanism: PLAIN
+  sasl.username: 2LMY5AD4N7QAYHDV
+  sasl.password: sQ7ioOJ2nU9vRij7/nT+HSDIZYU/ZX/DSW8CCoKoeyILMYdS6MVegvFga4vnOG80
+

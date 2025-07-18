@@ -64,10 +64,48 @@ def majorityElement(nums):
     counter_map = {}
     n = len(nums) // 2
     for i in nums:
-        counter_map[i]=counter_map.get(i,0) +1
+        counter_map[i] = counter_map.get(i, 0) + 1
         if counter_map[i] > n:
             print(counter_map[i])
             return i
     return -1
 
-print(majorityElement([3, 2, 2]))
+
+def searchMajorityPosition(nums, target):
+    high = len(nums)
+    low = 0
+
+    while high > low:
+        mid = low + (high - low) // 2
+
+        if nums[mid] == target:
+            return mid
+
+        elif nums[mid] > target:
+            high = mid
+
+        elif nums[mid] < target:
+            low = mid + 1
+
+    return high
+
+
+def length_of_last_word(s):
+    s = s.rstrip()
+    return len(s.split(" ")[-1])
+
+
+def longestCommonPrefix(arr):
+    arr.sort()
+    start = arr[0]
+    end = arr[-1]
+    result = []
+    for s in range(min(len(start), len(end))):
+        if not start[s] == end[s]:
+            return "".join(result)
+        result.append(start[s])
+
+    return "".join(result)
+
+
+print(longestCommonPrefix(["flower", "flow", "flight"]))
