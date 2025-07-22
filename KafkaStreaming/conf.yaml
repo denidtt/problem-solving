@@ -1,12 +1,12 @@
 schema_registry_conf:
-  url: https://schema.dev.gdmp.dgt.fwd.internal
+  url: https://schema.dev.gdmp.dgt.ins.internal
   basic.auth.user.info: R7SXXXXFLOPAZ66P:faPh6lVxl3ANVMxHCiXXXXXXXXXXXXXX5sOzvQm00s/aFsFntJaxT3Vf
   ssl.ca.location: cacert.pem
 
 
 
 consumer_conf:
-  bootstrap.servers: lkc-r5yjpp.domxp89qzwd.japaneast.azure.confluent.cloud:9092
+  bootstrap.servers: lkc-XX.XX.japaneast.azure.confluent.cloud:9092
   group.id: dev-ins-test-p
   enable.auto.commit: false
   auto.offset.reset: earliest
