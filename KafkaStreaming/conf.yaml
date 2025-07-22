@@ -7,7 +7,8 @@ schema_registry_conf:
 
 consumer_conf:
   bootstrap.servers: lkc-r5yjpp.domxp89qzwd.japaneast.azure.confluent.cloud:9092
-  group.id: dev-omne-test-p
+  group.id: dev-ins-test-p
+  enable.auto.commit: false
   auto.offset.reset: earliest
   security.protocol: SASL_SSL
   sasl.mechanism: PLAIN
