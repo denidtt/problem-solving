@@ -14,3 +14,8 @@ consumer_conf:
   sasl.username: 2LMXXXXXYHDV
   sasl.password: sQ7ioOJ2nU9vRij7XXXXXXMYdS6MVegvFga4vnOG80
 
+mysql_conf:
+    host : aurora-mysql-gtf-mmt-apse1-dev-CLUSTERXXXXXX
+    user : denXXXX
+    password : ~XXXXXX(
+    database : db_name
